@@ -9,6 +9,19 @@
 </head>
 
 <body style="width:100%">
-    <img src="images/rose.png" srcset="images/rose-tab.png 1x, images/rose-mobile.png 2x">
+    <!-- 
+    <picture>
+        <source media="(max-width: 800px)" sizes="(max-width: 500px) 50vw, 10vw" srcset="images/rose-mobile.png 138w, images/rose-mobile.png 138w">
+        <source media="(max-width: 1024px)" sizes="(max-width: 960px) 100vw, 50vw" srcset="images/rose-tab.png 416w, images/rose-tab.png 416w">
+        <img src="images/rose.png" alt="Human">
+    </picture> 
+    -->
+	<!-- basic -->
+    <!-- <img src="images/rose.png" srcset="images/rose-tab.png 1x, images/rose-mobile.png 2x"> -->
+
+	<!-- example1 -->
+    <img src="images/rose.png" sizes="50vw" srcset="images/rose-mobile.png 400w, images/rose-tab.png 600w">
+
+   
 </body>
 </html>

@@ -9,18 +9,28 @@
 </head>
 
 <body style="width:100%">
-    <!-- 
-    <picture>
-        <source media="(max-width: 800px)" sizes="(max-width: 500px) 50vw, 10vw" srcset="images/rose-mobile.png 138w, images/rose-mobile.png 138w">
-        <source media="(max-width: 1024px)" sizes="(max-width: 960px) 100vw, 50vw" srcset="images/rose-tab.png 416w, images/rose-tab.png 416w">
-        <img src="images/rose.png" alt="Human">
-    </picture> 
-    -->
+    
+    
+    
+
 	<!-- basic -->
-    <!-- <img src="images/rose.png" srcset="images/rose-tab.png 1x, images/rose-mobile.png 2x"> -->
+    <div class="box">
+    	<img src="images/rose.png" srcset="images/rose-tab.png 1x, images/rose-mobile.png 2x">
+    </div>
 
 	<!-- example1 -->
-    <img src="images/rose.png" sizes="50vw" srcset="images/rose-mobile.png 400w, images/rose-tab.png 600w">
+    <div class="box">
+    	<img src="images/rose.png" sizes="100vw" srcset="images/rose-mobile.png 800w, images/rose-tab.png 1024w, images/rose.png 1366w">
+    </div>
+
+
+    <div class="box">
+	    <picture>
+	        <source media="(max-width: 800px)" sizes="(max-width: 500px) 50vw, 10vw" srcset="images/rose-mobile.png 138w, images/rose-mobile.png 138w">
+	        <source media="(max-width: 1024px)" sizes="(max-width: 960px) 100vw, 50vw" srcset="images/rose-tab.png 416w, images/rose-tab.png 416w">
+	        <img src="images/rose.png" alt="Human">
+	    </picture>
+    </div> 
 
    
 </body>
